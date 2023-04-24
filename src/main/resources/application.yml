@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: elk #项目名称
+server:
+  port: 8000 #修改默认端口
+#logging:
+#  config: classpath:logback-config.xml
+#也可以使用自定义的名称，比如logback-config.xml，只需要在application.properties文件中使用logging.config=classpath:logback-config.xml指定即可。
+
+logstash:
+  server:
+    addr: 127.0.0.1:4560
+
